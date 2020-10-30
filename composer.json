@@ -4,7 +4,7 @@
     "type": "library",
     "minimum-stability": "dev",
     "require": {
-        "apache/thrift": "^0.13.0"
+        "apache/thrift": "0.13.0"
     },
     "license": "MIT",
     "autoload": {
