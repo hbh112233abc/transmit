@@ -1,6 +1,10 @@
 # bingher/transmit
 > thrift php 简单封装用于生成服务端及客户端
 
+## 安装
+```
+composer require bingher/transmit
+```
 
 ## 使用说明
 - 服务端:定义了通用调用接口`invoke`,传参:方法名及数组json字符串参数,继承`\bingher\transmit\Server`后只要写相关业务逻辑即可
