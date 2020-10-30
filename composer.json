@@ -1,0 +1,21 @@
+{
+    "name": "bingher/transmit",
+    "description": "transmit",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "apache/thrift": "^0.13.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "bingher\\transmit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hbh112233abc",
+            "email": "hbh112233abc@163.com"
+        }
+    ]
+}
