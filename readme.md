@@ -48,7 +48,7 @@ var_dump($res);
 - [thrift框架搭建的php服务端/客户端代码](https://blog.csdn.net/shi_yi_fei/article/details/62893605)
 
 ```
-./tool/thrift-0.13.0.exe -gen py ./tool/transmit.thrift
-./tool/thrift-0.13.0.exe -gen php ./tool/transmit.thrift
-./tool/thrift-0.13.0.exe -gen java ./tool/transmit.thrift
+./tool/thrift.exe -gen py ./tool/transmit.thrift
+./tool/thrift.exe -gen php ./tool/transmit.thrift
+./tool/thrift.exe -gen java ./tool/transmit.thrift
 ```
