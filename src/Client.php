@@ -48,7 +48,9 @@ class Client
             $result = $this->server->invoke($name, $data);
             return $result;
         } finally {
-            $this->transport->close();
+            if ($this->transport->isOpen()) {
+                $this->transport->close();
+            }
         }
     }
 }
